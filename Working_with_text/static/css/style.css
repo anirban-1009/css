@@ -1,0 +1,64 @@
+h1 {
+    color: grey;
+    font-size: 30pt;
+    /*text-shadow: 5px 2px 4px grey;
+    text-shadow: rgba(0, 0, 255, 1.0) -1px -2px 0.5em*/;
+}
+
+p.capitalize {
+	text-transform: capitalize;
+}
+
+p.uppercase{
+	text-transform: uppercase;
+}
+
+p.lowercase{
+	text-transform: lowercase;
+}
+
+/*p.normal{
+	letter-spacing: normal;
+}
+*/
+p.positive {
+	letter-spacing: 4px;
+}
+
+p.negative {
+	letter-spacing: -1.5px;
+}
+
+
+p.normal {
+	word-spacing: normal;
+}
+
+p.px {
+	word-spacing: 30px;
+}
+
+p.positvep {
+	word-spacing: 20px;
+}
+
+p.negativep {
+	word-spacing: -5px;
+}
+
+p{
+	white-space: nowrap;
+}
+
+p.pre{
+	white-space: pre;
+}
+
+p.preline{
+	white-space: pre-line;
+
+}
+
+p.prewrap{
+	white-space: pre-wrap;
+}

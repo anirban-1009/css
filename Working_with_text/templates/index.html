@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    	<title>{{title}}</title>
+    	<h2>run 1</h2>
+    	<p class="capitalize">
+    		The value capitalize transforms the first character in each word to upercase;
+    		all other characters remain unaffected.
+    	</p>
+
+
+
+
+    	<h2>run 2</h2>
+    	<p class="uppercase">This value transforms all the characters to uppercase.</p>
+    	<p class="lowercase">This value transforms all characters to lowercase</p>
+
+
+    	<h2>run 3</h2>
+    	<p class="normal">This paragraph has no additional letter-spacing applied.</p>
+    	<p class="positive">This paragraph is letter-spaced at 4px.</p>
+
+    	<p class="negative">This paragraph is letter-spaced at -1.5px</p>
+
+
+    	<h2>run 4</h2>
+    	<p class="normal">This paragraph has no additional word-spacing applied</p>
+    	<p class="px">This paragraph is word-spaced at 30px.</p>
+
+        <h2>run 5</h2>
+        <p class="positivep">This paragraph is word-spacing at 20px.</p>
+        <p class="negativep">This paragraph is word-spaced at -5px</p>
+
+        <h2>run 6</h2>
+        <p>This paragraph has      multiple spaces    and a line break, but it will be ignored, as we used the nowrap value.</p>
+
+        <h2>run 7</h2>
+        <p class="pre">
+            In the markup we have multiple        spaces and a line break.
+        </p>
+        <p class="preline">
+            In this markup we have multiple       spaces and a line break, but in the result multiple spaces are ignored.
+        </p>
+        <p class="prewrap">
+            In the markup we have         multiple spaces and a line break
+        </p>
+    </head>
+</html>
