@@ -58,10 +58,18 @@ p.second{
 }
 body{
 	background-color: #C0C0C0;
+	background-image: url("http://www.sololearn.com/uploads/css_logo.png");
+	background-repeat: repeat-y;/*repeat-x*/
 }
 h1{
 	background-color: rgb(135, 206, 235);
 }
 p {
 	background-color: LightGreen;
+}
+
+p.image {
+	padding: 30px;
+	background-image: url("http://www.sololearn.com/images/tree.jpg");
+	color: white;
 }
