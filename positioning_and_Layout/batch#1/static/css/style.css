@@ -1,0 +1,43 @@
+span {
+	display: block;
+}
+
+p.inline{
+	display: inline;
+}
+
+#disnone{
+	display: none;
+}
+
+#hiddenvis{
+	visibility: hidden;/*visible*/
+}
+
+p.position_static{
+	position: static;
+	top: 30px;
+	right: 5px;
+	color: red;
+}
+
+p.position_fixed{
+	position: fixed;
+	top: 30px;
+	right: 5px;
+	color: red;
+}
+
+p.rp{
+	width: 350px;
+	border: 1px black solid;
+	position: fixed;
+}
+
+span.rp{
+	background: green;
+	color: white;
+	position: relative;
+	top: 150px;
+	left: 50px;
+}

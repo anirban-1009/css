@@ -1,43 +1,44 @@
-span {
-	display: block;
+.floating{
+	float: right;
 }
 
-p.inline{
-	display: inline;
+.clearing{
+	clear: both;
 }
 
-#disnone{
-	display: none;
+/*div {
+	width: 150px;
+	height: 150px;
+	background-color: LightBlue;
+	float: left;
+	overflow: hidden;
+	scroll-makes the content scrollable
+	hidden-makes the overflowing content disappear
+	auto-makes the content auto scrollable
+	visible is the default property of the overflow
 }
 
-#hiddenvis{
-	visibility: hidden;/*visible*/
-}
 
-p.position_static{
-	position: static;
-	top: 30px;
-	right: 5px;
-	color: red;
-}
 
-p.position_fixed{
-	position: fixed;
-	top: 30px;
-	right: 5px;
-	color: red;
-}
-
-p.rp{
-	width: 350px;
-	border: 1px black solid;
-	position: fixed;
-}
-
-span.rp{
-	background: green;
-	color: white;
+*/
+.blue {
+	z-index: 3;
 	position: relative;
-	top: 150px;
-	left: 50px;
+	background-color: #8EC4D0;
+	margin-bottom: 15px;
+	width: 120px;
+	height: 120px;
+	color: #FFF;
+}
+
+.red {
+	z-index: 2;
+	position: relative;
+	background-color: #FF4D4D;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	color: #FFF;
+	margin-top: -50px;
+	margin-left: 50px;
 }

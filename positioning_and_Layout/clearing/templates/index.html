@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+        <link rel = "icon" href = 
+"https://flask-emo.herokuapp.com/static/images/1.png" 
+        type = "image/x-icon">
+    	<title>{{title}}</title>
+
+
+        <!-- Clear Property -->
+        <p>
+            This paragraph is above the div element and is not affected by the float right property.
+            <br /><br />
+            <div class="floating">
+                <img src="http://www.sololearn.com/uploads/css_logo.png">
+            </div>
+            This paragraph comes after the div element and is affected by the float right property.
+            <br /><br />
+            This paragraph also comes after the div element and is affected by the float right property.
+        </p>
+        <br/><br/>
+
+        <!-- Clearing Floats -->
+        <h2>Clearing Floats</h2>
+        This paragraph is above the div element is not affected by the float right property.
+        <br/><br/>
+        <div class="floating">
+            <img src="http://www.sololearn.com/uploads/css_logo.png">
+        </div>
+        This paragraph comes after the div element and is affected by the float right property.
+        <br/><br class="clearing"/>
+        This paragraph is out of the floating group and is not affected by the float right property.
+        <br/><br/>
+
+    </head>
+</html>
