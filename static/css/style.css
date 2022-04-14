@@ -1,44 +1,59 @@
-.floating{
-	float: right;
+/*Vendor Prefix */
+.round {
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+	border: 1px solid green;
+	width: 200px;
+	padding: 25px;
+
+	/*Firefox	-moz-
+	Safari		-webkit-
+	Chrome		-webkit-
+	Opera 		-o-
+	Internet Explorer -ms
+	*/
 }
 
-.clearing{
-	clear: both;
+.fillr {
+	border-radius: 20px;
+	background-color: green;
+	color: white;
+	padding: 50px;
 }
 
-/*div {
-	width: 150px;
-	height: 150px;
-	background-color: LightBlue;
-	float: left;
-	overflow: hidden;
-	scroll-makes the content scrollable
-	hidden-makes the overflowing content disappear
-	auto-makes the content auto scrollable
-	visible is the default property of the overflow
+.bottomr{
+	border-radius: 0 0 20px 20px;
+	background-color: green;
+	color: white;
+	padding: 50px;
+}
+
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: green;
+	color: white;
+}
+
+.shady{
+	width: 300px;
+	height: 100px;
+	background-color: #9ACD32;
+	box-shadow: 10px 10px #888888;/* horizontal offset, vertical offset */
 }
 
 
+.blur {
+	width: 400px;
+	height: 100px;
+	box-shadow: 10px 10px 5px 5px #888888;
+	background-color: red;
+	/*
 
-*/
-.blue {
-	z-index: 3;
-	position: relative;
-	background-color: #8EC4D0;
-	margin-bottom: 15px;
-	width: 120px;
-	height: 120px;
-	color: #FFF;
-}
-
-.red {
-	z-index: 2;
-	position: relative;
-	background-color: #FF4D4D;
-	position: relative;
-	width: 120px;
-	height: 120px;
-	color: #FFF;
-	margin-top: -50px;
-	margin-left: 50px;
+	horizontal offset - the shadow will be to the left of the box
+	vertical offset - the shadow will be above the box
+	blur radius - negative values are not allowed
+	spread radius - negative values will cause the shadow to shrink
+	*/
 }

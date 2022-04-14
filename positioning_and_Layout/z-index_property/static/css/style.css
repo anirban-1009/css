@@ -1,0 +1,44 @@
+.floating{
+	float: right;
+}
+
+.clearing{
+	clear: both;
+}
+
+/*div {
+	width: 150px;
+	height: 150px;
+	background-color: LightBlue;
+	float: left;
+	overflow: hidden;
+	scroll-makes the content scrollable
+	hidden-makes the overflowing content disappear
+	auto-makes the content auto scrollable
+	visible is the default property of the overflow
+}
+
+
+
+*/
+.blue {
+	z-index: 3;
+	position: relative;
+	background-color: #8EC4D0;
+	margin-bottom: 15px;
+	width: 120px;
+	height: 120px;
+	color: #FFF;
+}
+
+.red {
+	z-index: 2;
+	position: relative;
+	background-color: #FF4D4D;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	color: #FFF;
+	margin-top: -50px;
+	margin-left: 50px;
+}
