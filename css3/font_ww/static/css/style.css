@@ -1,0 +1,28 @@
+.normal {
+	width: 210px;
+	height: 100px;
+	border: 1px solid #000000;
+	word-wrap: normal;
+}
+
+.break-word {
+	width: 210px;
+	height: 100px;
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+
+@font-face {
+	font-family: Delicious;
+	src: url('Delicious-Roman.otf');
+}
+
+@font-face{
+	font-family: Deleicious;
+	font-weight: bold;
+	src: url('Delicious-Bold.otf');
+}
+
+h1{
+	font-family: Delicious, sans-serif;
+}

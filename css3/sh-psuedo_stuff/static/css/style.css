@@ -1,0 +1,27 @@
+h1 {
+	text-shadow: 5px 10px 2px #93968f, -3px 6px 5px #58d1e3;
+}
+
+#parent p:last-child{/*first and last class chages the character of the first and last element of a parent element*/
+	color: green;
+	text-decoration: underline;
+}
+p::first-line {
+	color: #589432 ;
+}
+
+p::selection {
+	background: #8bc34a;
+	color: #fff;
+}
+
+/*		Pseudo Elements		
+::first-line - the first line of the text in a selector
+::first-letter - the first letter of the text in a selector
+::selection - selects the portion of an element that is selected by a user
+::before - inserts some content before an element
+::after - inserts some content after an element */
+
+p::before {
+	content: url("http://www.sololearn.com/images/bullet.jpg");
+}

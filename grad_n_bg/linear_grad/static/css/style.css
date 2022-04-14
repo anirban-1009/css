@@ -1,0 +1,71 @@
+.ling {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-linear-gradient(DeepSkyBlue, Black);
+}
+
+.multi {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-linear-gradient(blue, yellow, green, pink, white);
+}
+
+.percol {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-linear-gradient(blue 20%, yellow 30%, green 85%);/* you can also use px and em */
+}
+
+.l2r {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-linear-gradient(left, blue, green, white);
+}
+
+.B2t {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-linear-gradient(bottom, blue, green, white);
+}
+
+.bottom_l{
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-linear-gradient(bottom left, blue, green, white);
+}
+
+.hundeg{
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-linear-gradient(100deg, blue, green, white);
+}
+
+.repg {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: -moz-repeating-linear-gradient(blue, green 20px);
+}
