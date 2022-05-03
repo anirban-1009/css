@@ -1,53 +1,19 @@
-.rad_grad{
-	float: left;
-	width: 300px;
-	height: 100px;
-	margin: 4px;
-	color: #FFF;
-	background: -moz-radial-gradient(center, circle, DeepSkyBlue, Black);
-}
-/*background: radial-gradient(position, shape or size, color-stops);*/
-
-.normal {
-	float: left;
-	width: 150px;
-	height: 200px;
-	color: #FFF;
-	background: -moz-radial-gradient(green, yellow, blue);
-}
-
-.circle {
-	float: left;
-	width: 150px;
-	height: 200px;
-	color: #FFF;
-	background: -moz-radial-gradient(circle, green, yellow, blue);
-}
-
-.first{
-	height: 150px;
+.tran-img{
+	border: 20px solid rgba(0, 0, 0, 0.3);
 	width: 200px;
-	color: #FFF;
-	background: -moz-radial-gradient(top left, green, yellow, blue);
-	background: -webkit-radial-gradient(green, yellow, blue);
-	background: -ms-radial-gradient(green, yellow, blue);
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background: white;
 }
-
-.second{
-	float: left;
-	height: 150px;
+.trans-border{
+	border: 20px solid rgba(0, 0,0, 0.3);
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
 	width: 200px;
-	color: #FFF;
-	background: -moz-radial-gradient(green 5%, yellow 15%, blue 60%);
-	background: -webkit-radial-gradient(green 5%, yellow 15%, blue 60%);
-	background: -ms-radial-gradient(green 5%, yellow 15%, blue 60%);
-}
-
-.colstops{
-	height: 150px;
-	width: 200px;
-	color: #FFF;
-	background: -moz-repeating-radial-gradient(cirlce, green 40%, yellow 50%, blue 70%);
-	background: -webkit-radial-gradient(circle, green 40%, yellow 50%, blue 70%);
-	background: -ms-radial-gradient(circle, green 40%, yellow 50%, blue 70%);
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-color: white;
 }
